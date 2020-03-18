@@ -1,5 +1,5 @@
 {
-  "name": "broken-pagination",
+  "name": "ds-broken-pagination",
   "version": "1.0.0",
   "description": "This package containts a broken Pagination project. Please fix the paginator and expand the tests to make sure it works as required.",
   "main": "index.js",
