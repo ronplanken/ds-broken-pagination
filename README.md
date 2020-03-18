@@ -1,6 +1,6 @@
 # Digital Solutions broken-pagination
 
-In this example, test project we have a [paginator](https://en.wikipedia.org/wiki/Pagination) function that is being used to show a text at the bottom of a large table. Unfortunatly the function does not seem to properly show the current page the user is at. 
+In this example test project, we have a [paginator](https://en.wikipedia.org/wiki/Pagination) function that is being used to show a text at the bottom of a large table. Unfortunatly the function does not seem to properly show the current page the user is at. 
 
 ## The issue
 
@@ -39,5 +39,6 @@ If you run the paginator with the shown input, it will output the following line
 ## Usage
 In order to do a once-off run simply clone the repository and do a `npm install` to setup the Mocha testing library. Then you can run the project by typing: `npm start` for a once-off with a basic result set. In order to test your output a sample test has been provided that can be run using: `npm test`. The assignment is as follows:
 
+## The assignment
 **Fix the paginator so it works for all pages with any given result, prove the result by extending the test cases.**
 
