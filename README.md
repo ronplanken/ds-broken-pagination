@@ -37,7 +37,7 @@ If you run the paginator with the shown input, it will output the following line
 
 
 ## Usage
-In order to do a once-off run simply clone the repository and do a `npm install` to setup the Mocha testing library. Then you can run the project by typing: `npm start` for a once-off with a basic result set. In order to test your output a sample test has been provided that can be run using: `npm test`. The assignment is as follows:
+In order to do a once-off run simply clone the repository and do a `npm install` to setup the Mocha testing library. Then you can run the project by typing: `npm start` for a once-off with a basic result set. In order to test your output a sample test has been provided that can be run using: `npm test`.
 
 ## The assignment
 **Fix the paginator so it works for all pages with any given result, prove the result by extending the test cases.**
