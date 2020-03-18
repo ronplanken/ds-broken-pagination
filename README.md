@@ -29,7 +29,7 @@ const result = {
 
 If you run the paginator with the shown input, it will output the following line: `11-21 van 95 items`. Which is incorrect. The following assumptions regarding the result are given:
 
-**pageNumber is a 0-based index or the current page the user is shown**
+**pageNumber is a 0-based index of the current page the user is shown**
 
 **totalElements is the final, total number of elements in the larger result set available**
 
