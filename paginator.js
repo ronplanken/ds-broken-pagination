@@ -6,9 +6,9 @@ const paginator = (result) => {
 
     const firstItem = (result.pageNumber * result.itemsPerPage) + 1;
     const lastItem = (firstItem + result.itemsPerPage);
-    return `Pagina: ${pageNumber} | ${firstItem}-${lastItem} van ${result.totalElements} items`;
+    return `Page: ${pageNumber} | ${firstItem}-${lastItem} of ${result.totalElements} items`;
   } else {
-    return 'Geen items gevonden';
+    return 'No items found';
   }
 }
 

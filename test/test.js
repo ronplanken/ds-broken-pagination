@@ -24,7 +24,7 @@ describe('Pagination', function() {
     }
 
     it('should return 1-10 van 95 items', function() {
-      assert.equal(paginator(result), "1-10 van 95 items");
+      assert.equal(paginator(result), "Page: 1 | 1-10 of 95 items");
     });
   });
 });
